@@ -25,10 +25,18 @@ Then
 You do not need to run "make clean" unless you have deleted or
 renamed .md files. 
 
+
+Where?
+------
+
+[http://oxi-doc.leibl.co.uk/](http://oxi-doc.leibl.co.uk/) pulls 
+from `git://github.com/aleibl/oxi-doc-md.git` every 15 minutes 
+and produces HTML pages from the latest commit (on branch master).
+See [http://oxi-doc.leibl.co.uk/cron-rebuild-oxidoc.html](http://oxi-doc.leibl.co.uk/cron-rebuild-oxidoc.html) 
+for the log of the last rebuild.
+
 ToDo
 ----
 
-Make the recreation of .html files an atomic operation.
-
-
+* Make the recreation of .html files an atomic operation.
 
