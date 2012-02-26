@@ -1,8 +1,11 @@
-all: index.html pkginst-oliwel.html
+allhtml := $(patsubst %.md,%.html,$(wildcard *.md))
+
+all: $(allhtml)
 
 %.html: %.md
 	bin/Markdown.pl $< > $@
 
-clean: 
+.PHONY: clean
+clean:
 	rm *.html
 
