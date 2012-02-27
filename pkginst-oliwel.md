@@ -13,9 +13,7 @@ Limitations
 
 The packages feature a new (internal) certification interface, therefore there are some limitations:
 
-* You can use only PKCS10 or server side key generation in CSRs
-
-* LDAP publication is not working (will follow soon)
+* LDAP publication is working but needs some manual interaction (relies on the new workflow engine which is still under development) 
 
 * SCEP suport is currently under redesign and has not been migrated yet.
 
@@ -56,7 +54,7 @@ OpenXPKI installation and deployment (configuration)
 Testing your new PKI
 --------------------
 
-You will some some perl warnings, this is ok - if everthing works fine, 
+You will see some perl warnings, this is ok - if everthing works fine, 
 you can now reach the Web GUI on http://yourhost/openxpki/ .
 
 First step: Login using "External Dynamic" Authentication, 
@@ -68,3 +66,12 @@ you always need a certiticate approval from different  person than
 the requestor. After approving a request the certificate will be 
 available immediately.
 
+
+Bugs / Support
+--------------
+
+If you have trouble with the packages, contact debian@openxpki.org
+
+For any other support, please use our mailinglists 
+openxpki-users@lists.sourceforge.net / openxpki-devel@lists.sourceforge.net
+ 
