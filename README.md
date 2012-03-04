@@ -32,9 +32,27 @@ Where?
 [http://oxi-doc.leibl.co.uk/](http://oxi-doc.leibl.co.uk/) pulls 
 from `git://github.com/aleibl/oxi-doc-md.git` every 15 minutes 
 and produces HTML pages from the latest commit (on branch master).
+
+### Log
+
 See [http://oxi-doc.leibl.co.uk/cron-rebuild-oxidoc.html](http://oxi-doc.leibl.co.uk/cron-rebuild-oxidoc.html) 
 for the log of the last rebuild.
 
+### RSS
+
+Atom (RSS) feed generator is now active:
+
+* [http://oxi-doc.leibl.co.uk/feed-oxidoc.xml](http://oxi-doc.leibl.co.uk/feed-oxidoc.xml)
+  
+Note that for the generator to work correctly, git conventions
+for the commit message need to be observed:
+    
+1. The first line should be brief, like a subject in an email. 
+   Brief: 50-60 characters is a good limit.
+2. Then a blank line.
+3. After that a longer message if further explanations are required. 
+Additional blank lines to break down the message into paragraphs are ok.
+    
 ToDo
 ----
 
