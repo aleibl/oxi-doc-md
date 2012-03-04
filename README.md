@@ -47,11 +47,10 @@ Atom (RSS) feed generator is now active:
 Note that for the generator to work correctly, git conventions
 for the commit message need to be observed:
     
-1. The first line should be brief, like a subject in an email. 
-   Brief: 50-60 characters is a good limit.
+1. The first line should be brief, like a subject in an email. Brief: 50-60 characters is a good limit.
 2. Then a blank line.
 3. After that a longer message if further explanations are required. 
-Additional blank lines to break down the message into paragraphs are ok.
+Additional blank lines to break down the message into paragraphs are OK.
     
 ToDo
 ----

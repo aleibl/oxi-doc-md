@@ -15,14 +15,14 @@ The packages feature a new (internal) certification interface, therefore there a
 
 * LDAP publication is working but needs some manual interaction (relies on the new workflow engine which is still under development) 
 
-* SCEP suport is currently under redesign and has not been migrated yet.
+* SCEP support is currently under redesign and has not been migrated yet.
 
 debian installation
 -------------------
 
 To get a test setup working do the following:
 
-1. Install a plain debian squeeze 64bit with at least 2GB disksapce.
+1. Install a plain debian squeeze 64bit with at least 2GB disk space.
 
 2. *Important* - activate the "en_US.utf-8" locale (remove the `#` sign 
 at the start of the line  in /etc/locale.gen and run `locale-gen` afterwards).
@@ -54,16 +54,16 @@ OpenXPKI installation and deployment (configuration)
 Testing your new PKI
 --------------------
 
-You will see some perl warnings, this is ok - if everthing works fine, 
+You will see some Perl warnings, this is OK - if everything works fine, 
 you can now reach the Web GUI on http://yourhost/openxpki/ .
 
 First step: Login using "External Dynamic" Authentication, 
 Username "admin", Password "CA Operator", and activate the CA key 
-using the choosen password.
+using the chosen password.
 
 You should now be able to request and issue certificates. Please note that
-you always need a certiticate approval from different  person than 
-the requestor. After approving a request the certificate will be 
+you always need a certificate approval from different  person than 
+the requester. After approving a request the certificate will be 
 available immediately.
 
 
@@ -72,6 +72,6 @@ Bugs / Support
 
 If you have trouble with the packages, contact debian@openxpki.org
 
-For any other support, please use our mailinglists 
+For any other support, please use our mailing lists 
 openxpki-users@lists.sourceforge.net / openxpki-devel@lists.sourceforge.net
  

@@ -5,7 +5,7 @@ OpenXPKI (oxi) documentation
 that aims at creating an enterprise-grade PKI/Trustcenter software.
 
 While the software is pretty mature the documentation is lagging
-behind. Some of the developers decided to make a gresh start.
+behind. Some of the developers decided to make a fresh start.
 
 Here's what we got so far:
 
